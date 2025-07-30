@@ -1,0 +1,21 @@
+<configuration>
+
+    <!-- Console Appender -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Root Logger -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+
+    <!-- Loggers for Specific Packages -->
+    <logger name="net.serenitybdd" level="INFO"/>
+    <logger name="net.net.SocketException" level="WARN"/>
+    <logger name="io.restassured" level="INFO"/>
+    <!-- Add more loggers as needed for other packages -->
+
+</configuration>
