@@ -66,8 +66,13 @@ Run all tests:
 ```bash
 mvn clean verify
 ```
-
 ---
+## Serenity Report - Test execution snapshots
+
+![tests summary](src/test/resources/screenshot/img_1.png)
+
+![Retry test details](src/test/resources/screenshot/img_2.png)
+
 
 ## 🚀 Load Testing with Gatling
 
@@ -95,7 +100,7 @@ This report includes:
 * Number of requests per second
 * Success/failure rate
 
-![test steps](src/test/resources/screenshot/img.png)
+![Gatling summary](src/test/resources/screenshot/img.png)
 
 ---
 
